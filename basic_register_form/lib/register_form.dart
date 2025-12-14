@@ -18,6 +18,7 @@ class _RegisterFormState extends State<RegisterForm> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: Color(0xFF35A2B6),
         title: Center(
           child: Text(

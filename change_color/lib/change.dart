@@ -38,6 +38,7 @@ class _ChangeState extends State<Change> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: Colors.white,
         title: Center(
           child: Text(

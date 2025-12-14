@@ -26,6 +26,7 @@ class _MyCountdownEngineState extends State<MyCountdownEngine> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: Color(0xFF35A2B6),
         title: Center(
           child: Text(
