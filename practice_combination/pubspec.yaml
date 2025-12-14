@@ -28,6 +28,67 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  lecture_02:
+    git:
+      url: https://github.com/truongloc247/flutter-projects.git
+      path: lecture_02
+      ref: main
+  lecture_03:
+    git:
+      url: https://github.com/truongloc247/flutter-projects.git
+      path: lecture_03
+      ref: main
+  practice_01:
+    git:
+      url: https://github.com/truongloc247/flutter-projects.git
+      path: practice_01
+      ref: main
+  practice_02:
+    git:
+      url: https://github.com/truongloc247/flutter-projects.git
+      path: practice_02
+      ref: main
+  change_color:
+    git:
+      url: https://github.com/truongloc247/flutter-projects.git
+      path: change_color
+      ref: main
+  number_counter:
+    git:
+      url: https://github.com/truongloc247/flutter-projects.git
+      path: number_counter
+      ref: main
+  countdown_timer:
+    git:
+      url: https://github.com/truongloc247/flutter-projects.git
+      path: countdown_timer
+      ref: main
+  basic_login_form:
+    git:
+      url: https://github.com/truongloc247/flutter-projects.git
+      path: basic_login_form
+      ref: main
+  basic_register_form:
+    git:
+      url: https://github.com/truongloc247/flutter-projects.git
+      path: basic_register_form
+      ref: main
+  product_list:
+    git:
+      url: https://github.com/truongloc247/flutter-projects.git
+      path: product_list
+      ref: main
+  news_app:
+    git:
+      url: https://github.com/truongloc247/flutter-projects.git
+      path: news_app
+      ref: main
+  authentication_authorization_app:
+    git:
+      url: https://github.com/truongloc247/flutter-projects.git
+      path: authentication_authorization_app
+      ref: main
+
   flutter:
     sdk: flutter
 
