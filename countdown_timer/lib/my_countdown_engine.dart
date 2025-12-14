@@ -28,11 +28,9 @@ class _MyCountdownEngineState extends State<MyCountdownEngine> {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Color(0xFF35A2B6),
-        title: Center(
-          child: Text(
-            "⏳ Bộ đếm thời gian",
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-          ),
+        title: Text(
+          "⏳ Bộ đếm thời gian",
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
       ),
       body: counter(),

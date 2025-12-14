@@ -20,11 +20,9 @@ class _RegisterFormState extends State<RegisterForm> {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Color(0xFF35A2B6),
-        title: Center(
-          child: Text(
-            "Form Đăng ký tài khoản",
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-          ),
+        title: Text(
+          "Form Đăng ký tài khoản",
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
       ),
       body: myForm(),

@@ -40,11 +40,9 @@ class _ChangeState extends State<Change> {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.white,
-        title: Center(
-          child: Text(
-            "Change Color App",
-            style: TextStyle(fontWeight: FontWeight.bold),
-          ),
+        title: Text(
+          "Change Color App",
+          style: TextStyle(fontWeight: FontWeight.bold),
         ),
       ),
       body: randomColor(),
